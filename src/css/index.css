@@ -1,0 +1,157 @@
+/* Resetting some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    font-size: 18px;
+}
+
+header {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #f4f4f4;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #17a2b8;
+}
+
+.curriculum {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+    background-color: #ffffff;
+    max-width: 1200px;
+    margin: 20px auto;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.foto img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    margin-right: 40px;
+}
+
+.info {
+    flex: 1;
+    max-width: 600px;
+}
+
+.info h2 {
+    margin-bottom: 10px;
+    font-size: 2rem;
+    color: #343a40;
+}
+
+.info p {
+    margin-bottom: 8px;
+}
+
+.educacion,
+.proyectos,
+.skills,
+.mentores,
+.idiomas,
+.progreso-objetivos,
+.contacto {
+    background-color: #ffffff;
+    padding: 30px;
+    max-width: 1200px;
+    margin: 20px auto;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.educacion h2, .proyectos h2, .skills h2, .mentores h2, .idiomas h2, .progreso-objetivos h2, .contacto h2 {
+    margin-bottom: 20px;
+    color: #343a40;
+}
+
+.proyectos h3 {
+    margin-top: 20px;
+    color: #007bff;
+}
+
+.proyectos p {
+    margin-top: 10px;
+}
+
+.skills ul, .mentores ul {
+    list-style: none;
+    padding-left: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+}
+
+.skills ul li,
+.mentores ul li {
+    padding: 8px;
+    background: #e9ecef;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.skills ul li:hover,
+.mentores ul li:hover {
+    background: #17a2b8;
+    color: #ffffff;
+}
+
+.idiomas p {
+    margin-bottom: 8px;
+}
+
+.progreso-objetivos p {
+    margin-top: 10px;
+}
+
+.contacto {
+    text-align: center;
+}
+
+.contacto p {
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #343a40;
+    color: #ffffff;
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 0.9rem;
+}
